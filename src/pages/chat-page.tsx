@@ -13,6 +13,7 @@ const Content = Layout.Content;
 const collapsedWidth = 60;
 const normalWidth = 260;
 
+// 主页面
 function ChatPage() {
   const [collapsed, setCollapsed] = useState(false);
   const [siderWidth, setSiderWidth] = useState(normalWidth);
