@@ -80,7 +80,7 @@ function ChatPage() {
       .split('; ')
       .find((row) => row.startsWith('avatar'))
       ?.split('=')[1];
-    avatar? setAvatar(avatar):setAvatar('');
+    avatar? setAvatar(avatar):setAvatar("https://avatars.githubusercontent.com/u/90499546?s=40&v=4");
     const nickname = document.cookie
       .split('; ')
       .find((row) => row.startsWith('nickname'))
