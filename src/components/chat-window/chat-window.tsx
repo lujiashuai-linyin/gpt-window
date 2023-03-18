@@ -53,7 +53,7 @@ function ChatWindow(props) {
         axios.post('/api/v1/gpt/question', {
             model: "gpt-3.5-turbo",
             topic: props.topic,
-            topc_id: props.id,
+            topic_id: props.id,
             content: [...messages, {role: 'user', content: inputText}]
         })
             .then((response) => {
